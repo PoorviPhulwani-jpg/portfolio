@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import profileImage from './pphulwan.jpg'; // Ensure this path is correct
 import { 
   Mail, 
   Phone, 
@@ -34,7 +35,7 @@ function App() {
           <div className="mb-6 sm:mb-8 flex justify-center">
             <div className="w-32 h-32 sm:w-48 sm:h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden border-4 border-green-700 shadow-lg">
               <img 
-                src="./pphulwan.jpg"
+                src={profileImage}
                 alt="Poorvi Phulwani"
                 className="w-full h-full object-cover"
               />
