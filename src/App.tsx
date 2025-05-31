@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import profileImage from './pphulwan.jpg'; // Ensure this path is correct
+import profileImage from '/pphulwan.jpg' // Ensure this path is correct
 import { 
   Mail, 
   Phone, 
